@@ -187,7 +187,6 @@ proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_volte_vowifi_
 proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn
 proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 proprietary/etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
-proprietary/etc/dpm.conf
 proprietary/etc/firmware/cmnlib64.b00
 proprietary/etc/firmware/cmnlib64.b01
 proprietary/etc/firmware/cmnlib64.b02
@@ -438,7 +437,6 @@ proprietary/product/lib/vendor.qti.hardware.radio.ims@1.2.so
 proprietary/product/lib/vendor.qti.hardware.radio.ims@1.3.so
 proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so
 proprietary/product/lib/vendor.qti.imsrtpservice@1.0.so
-proprietary/product/priv-app/uceShimService/uceShimService.apk
 proprietary/vendor/app/TimeService/TimeService.apk
 proprietary/vendor/bin/adpl
 proprietary/vendor/bin/adsprpcd
@@ -1265,7 +1263,6 @@ proprietary/vendor/lib/egl/libQTapGLES.so
 proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 proprietary/vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
 proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-proprietary/vendor/lib/hw/audio.primary.msm8998.so
 proprietary/vendor/lib/hw/camera.lilac.so
 proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so
@@ -1439,10 +1436,8 @@ proprietary/vendor/lib/libquipc_os_api.so
 proprietary/vendor/lib/librebuffering.so
 proprietary/vendor/lib/libril-qc-hal-qmi.so
 proprietary/vendor/lib/libril-qc-ltedirectdisc.so
-proprietary/vendor/lib/libril-qc-qmi-1.so
 proprietary/vendor/lib/libril-qc-radioconfig.so
 proprietary/vendor/lib/librilqmiservices.so
-proprietary/vendor/lib/libril.so
 proprietary/vendor/lib/librmnetctl.so
 proprietary/vendor/lib/librs_adreno_sha1.so
 proprietary/vendor/lib/librs_adreno.so

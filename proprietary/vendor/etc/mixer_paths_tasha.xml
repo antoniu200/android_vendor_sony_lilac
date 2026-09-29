@@ -1794,6 +1794,25 @@
     <path name="incall-rec-uplink-and-downlink">
         <path name="incall-rec-uplink" />
         <path name="incall-rec-downlink" />
+
+        <ctl name="MultiMedia1 Channels" value="2" />
+        <ctl name="MultiMedia1 Channel1" value="INCALL_RECORD_TX" />
+        <ctl name="MultiMedia1 Channel2" value="INCALL_RECORD_RX" />
+        <ctl name="MultiMedia1 Channel3" value="ZERO" />
+
+        <!-- Left = RX0 -->
+        <ctl name="MultiMedia1 Output Channel1" id="0" value="0" />
+        <ctl name="MultiMedia1 Output Channel1" id="1" value="0" />
+        <ctl name="MultiMedia1 Output Channel1" id="2" value="16384" />
+        <ctl name="MultiMedia1 Output Channel1" id="3" value="0" />
+
+        <!-- Right = TX0 -->
+        <ctl name="MultiMedia1 Output Channel2" id="0" value="16384" />
+        <ctl name="MultiMedia1 Output Channel2" id="1" value="0" />
+        <ctl name="MultiMedia1 Output Channel2" id="2" value="0" />
+        <ctl name="MultiMedia1 Output Channel2" id="3" value="0" />
+
+        <ctl name="MultiMedia1 Channel Mixer" value="Enable" />
     </path>
 
     <path name="incall-rec-uplink-and-downlink bt-sco">
