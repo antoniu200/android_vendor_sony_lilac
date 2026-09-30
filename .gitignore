@@ -463,7 +463,6 @@ proprietary/vendor/bin/hw/rild
 proprietary/vendor/bin/hw/vendor.display.color@1.0-service
 proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service
-proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
@@ -806,7 +805,6 @@ proprietary/vendor/etc/init/taimport_vendor.rc
 proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc
 proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc
-proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
@@ -821,17 +819,6 @@ proprietary/vendor/etc/libnfc-nxp-octopus.conf
 proprietary/vendor/etc/listen_platform_info.xml
 proprietary/vendor/etc/lowi.conf
 proprietary/vendor/etc/mixer_paths.xml
-proprietary/vendor/etc/perf/commonresourceconfigs.xml
-proprietary/vendor/etc/perf/perfboostsconfig.xml
-proprietary/vendor/etc/perf/perf-profile0.conf
-proprietary/vendor/etc/perf/perf-profile1.conf
-proprietary/vendor/etc/perf/perf-profile2.conf
-proprietary/vendor/etc/perf/perf-profile3.conf
-proprietary/vendor/etc/perf/perf-profile4.conf
-proprietary/vendor/etc/perf/perf-profile5.conf
-proprietary/vendor/etc/perf/perf-profile6.conf
-proprietary/vendor/etc/perf/targetconfig.xml
-proprietary/vendor/etc/perf/targetresourceconfigs.xml
 proprietary/vendor/etc/powerhint.xml
 proprietary/vendor/etc/qdcm_calib_data_5.xml
 proprietary/vendor/etc/qdcm_calib_data_8.xml
@@ -1021,7 +1008,6 @@ proprietary/vendor/lib64/libevent_observer.so
 proprietary/vendor/lib64/libfastcrc.so
 proprietary/vendor/lib64/libfastcvadsp_stub.so
 proprietary/vendor/lib64/libfastrpc_utf_stub.so
-proprietary/vendor/lib64/libfeedbackhandler.so
 proprietary/vendor/lib64/libFidoCrypto_vendor.so
 proprietary/vendor/lib64/libFlacSwDec.so
 proprietary/vendor/lib64/libflp.so
@@ -1090,7 +1076,6 @@ proprietary/vendor/lib64/libOmxWmaDec.so
 proprietary/vendor/lib64/libOpenCL.so
 proprietary/vendor/lib64/libpdmapper.so
 proprietary/vendor/lib64/libpdnotifier.so
-proprietary/vendor/lib64/libperfgluelayer.so
 proprietary/vendor/lib64/libprotobuf-c-idd.so
 proprietary/vendor/lib64/libprotobuf-c.so
 proprietary/vendor/lib64/libqcci_legacy.so
@@ -1111,9 +1096,6 @@ proprietary/vendor/lib64/libqrtr.so
 proprietary/vendor/lib64/libQSEEComAPI.so
 proprietary/vendor/lib64/libqsocket.so
 proprietary/vendor/lib64/libQTEEConnector_vendor.so
-proprietary/vendor/lib64/libqti-perfd-client.so
-proprietary/vendor/lib64/libqti-perfd.so
-proprietary/vendor/lib64/libqti-util.so
 proprietary/vendor/lib64/libquipc_os_api.so
 proprietary/vendor/lib64/libril-qc-hal-qmi.so
 proprietary/vendor/lib64/libril-qc-ltedirectdisc.so
@@ -1321,7 +1303,6 @@ proprietary/vendor/lib/libfastcrc.so
 proprietary/vendor/lib/libfastcvadsp_stub.so
 proprietary/vendor/lib/libfastcvopt.so
 proprietary/vendor/lib/libfastrpc_utf_stub.so
-proprietary/vendor/lib/libfeedbackhandler.so
 proprietary/vendor/lib/libFidoCrypto_vendor.so
 proprietary/vendor/lib/libFlacSwDec.so
 proprietary/vendor/lib/libflp.so
@@ -1405,7 +1386,6 @@ proprietary/vendor/lib/libOpenCL.so
 proprietary/vendor/lib/liboptizoom.so
 proprietary/vendor/lib/libpdmapper.so
 proprietary/vendor/lib/libpdnotifier.so
-proprietary/vendor/lib/libperfgluelayer.so
 proprietary/vendor/lib/libpn553_fw.so
 proprietary/vendor/lib/libprotobuf-c.so
 proprietary/vendor/lib/libqcci_legacy.so
@@ -1429,9 +1409,6 @@ proprietary/vendor/lib/libqrtr.so
 proprietary/vendor/lib/libqsocket.so
 proprietary/vendor/lib/libQTEEConnector_vendor.so
 proprietary/vendor/lib/libqtigef.so
-proprietary/vendor/lib/libqti-perfd-client.so
-proprietary/vendor/lib/libqti-perfd.so
-proprietary/vendor/lib/libqti-util.so
 proprietary/vendor/lib/libquipc_os_api.so
 proprietary/vendor/lib/librebuffering.so
 proprietary/vendor/lib/libril-qc-hal-qmi.so
