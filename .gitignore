@@ -724,7 +724,6 @@ proprietary/vendor/etc/apdr.conf
 proprietary/vendor/etc/api_auth_cacert
 proprietary/vendor/etc/api_auth_crl
 proprietary/vendor/etc/audio_effects.xml
-proprietary/vendor/etc/audio_platform_info.xml
 proprietary/vendor/etc/audio_policy_volumes.xml
 proprietary/vendor/etc/audio_tuning_mixer_tavil.txt
 proprietary/vendor/etc/audio_tuning_mixer.txt

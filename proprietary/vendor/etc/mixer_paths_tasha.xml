@@ -2570,7 +2570,7 @@
         <ctl name="DMIC MUX8" value="DMIC0" />
         <ctl name="ADC MUX7" value="DMIC" />
         <ctl name="DMIC MUX7" value="DMIC3" />
-        <ctl name="SLIM_0_TX Format" value="S24_LE" />
+        <ctl name="SLIM_0_TX Format" value="S16_LE" />
     </path>
 
     <path name="stereo-mic">
@@ -3078,7 +3078,7 @@
         <ctl name="DMIC MUX7" value="DMIC3" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC0" />
-        <ctl name="SLIM_0_TX Format" value="S24_LE" />
+        <ctl name="SLIM_0_TX Format" value="S16_LE" />
     </path>
 
     <path name="camcorder-mic">
@@ -3355,7 +3355,7 @@
         <ctl name="DEC8 Volume" value="84" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <path name="binaural-mic-monitoring" />
-        <ctl name="SLIM_0_TX Format" value="S24_LE" />
+        <ctl name="SLIM_0_TX Format" value="S16_LE" />
     </path>
 
     <path name="binaural-mic">
@@ -3489,7 +3489,7 @@
         <ctl name="AMIC MUX8" value="ADC2" />
         <ctl name="DEC8 Volume" value="84" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="SLIM_0_TX Format" value="S24_LE" />
+        <ctl name="SLIM_0_TX Format" value="S16_LE" />
     </path>
 
     <path name="external-stereo-mic">
